@@ -1,0 +1,30 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.btn{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    box-shadow: wheat;
+    border-radius: 10%;
+    width: 75px;
+    height: 25px;
+    background-color: cadetblue;
+    display: inline-block;
+    margin: 5px auto;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+span {
+    display: block;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 25px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
